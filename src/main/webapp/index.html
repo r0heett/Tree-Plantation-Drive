@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tree Plantation Drive Entry</title>
+</head>
+<body>
+    <h2>Tree Plantation Drive Entry</h2>
+
+    <form action="result.jsp" method="post">
+        <p>
+            Volunteer:<br>
+            <input type="text" name="volunteer" maxlength="40" required>
+        </p>
+
+        <p>
+            Tree:<br>
+            <select name="tree" required>
+                <option value="">Select a tree</option>
+                <option>Neem</option>
+                <option>Mango</option>
+                <option>Banyan</option>
+                <option>Peepal</option>
+                <option>Gulmohar</option>
+            </select>
+        </p>
+
+        <p>
+            Location:<br>
+            <input type="text" name="location" maxlength="40" required>
+        </p>
+
+        <p>
+            Trees Planted:<br>
+            <input type="number" name="trees" min="1" required>
+        </p>
+
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
